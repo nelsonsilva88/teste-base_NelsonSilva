@@ -2,20 +2,20 @@ import MainScene from './mainscene.js'
 
 
 const config = {
-    width: ,
-    height: ,
+    width: 1024,
+    height: 720,
     type: Phaser.AUTO,
     parent: 'game-canvas',
-    backgroundColor: '#',
+    backgroundColor: '#000000',
     scene: [MainScene],
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: -9.8 },
+            gravity: { y: 0 },
             debug: false
         }
     },
-    pixelArt: false
+    pixelArt: true
 }
 
 new Phaser.Game(config);
