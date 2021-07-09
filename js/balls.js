@@ -8,12 +8,13 @@ export class Balls extends Phaser.Physics.Arcade.Sprite{
         this.setBounce(1, 1);
 
         
-        
+        this.velocity = {
+            y: (-200, 200),
+            x: (-200, 200)
+        };
+
+        this.setVelocity(this.velocity.x, this.velocity.y);
  
-        //this.setVelocity(-velocity ,-200);
-    
-       // this.setVelocity(velocity ,200);
-    }
         }
   
-
+    }

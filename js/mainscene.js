@@ -24,7 +24,7 @@ export default class MainScene extends Phaser.Scene {
             this,
             this.game.config.width * 0.5,
             this.game.config.height * 0.5,
-            'balls', 1, 2, 3, 
+            'balls' 
         
 
         )
